@@ -1,0 +1,13 @@
+PreBuild:
+    - echo "---Begin PreRelease---"
+    - echo "---Install dependencies---"
+    - sudo apt-get -y update
+    - sudo apt-get -y install nodejs
+    - sudo apt-get -y install npm
+  Build:
+    - echo "---Build application---
+    - npm install
+    - echo "---Run tests---
+    - npm test
+  PkgInclude:
+    - '*'
