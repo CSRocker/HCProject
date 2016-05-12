@@ -66,6 +66,7 @@ if (!global.hasOwnProperty('db')) {
         }, function (err) {
             console.log('Unable to connect to the database:', err);
         });
+    console.log("Database Setup");
 
     global.db = {
         Sequelize: Sequelize,

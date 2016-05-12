@@ -5,8 +5,8 @@ echo "Setup file: setup.sh for configuring Ubuntu 14.04 LTS (HVM) EC2 instance"
 echo
 
 # create an alias in bash
-echo "Creating an alias in bash for ll = ls -alrth"
-alias ll=’ls -alrth’
+#echo "Creating an alias in bash for ll = ls -alrth"
+#alias ll=’ls -alrth’
 
 # Install CURL
 echo
